@@ -1,22 +1,22 @@
 [setting.options]
 original=Options
-translation=Настойки
+translation=Настройки
 
 [setting.plugin]
 original=Plugin
-translation=Плъгин
+translation=Приставка
 
 [setting.builtin-plugins]
 original=Core plugins
-translation=Основни пплъгини
+translation=Основни приставки
 
 [setting.action-reveal-plugin-in-list]
 original=Reveal in plugin list
-translation=
+translation=Покажи в списъка с приставки
 
 [setting.plugin-options]
 original=Plugin options
-translation=Настройки на плъгините
+translation=Настройки на приставките
 
 [setting.folder-path-example-placeholder]
 original=Example: folder 1/folder 2
@@ -28,39 +28,39 @@ translation=Пример: папка/бележка
 
 [setting.no-file-placeholder]
 original=No file selected
-translation=
+translation=Няма избран файл
 
 [setting.msg-restart-required]
 original=Changing this option requires a restart to take effect.
-translation=Промяната на тази опция изисква рестартиране за да влезе в сила.
+translation=Промяната на тази опция изисква рестартиране на програмата.
 
 [setting.msg-invalid-number]
 original=Invalid number
-translation=
+translation=Недопустимо число
 
 [setting.msg-value-at-least]
 original=Value must be at least {{min}}
-translation=
+translation=Стойността трябва да бъде не по-малка от {{min}}
 
 [setting.msg-value-at-most]
 original=Value must be at most {{max}}
-translation=
+translation=Стойността трябва да поне {max}}
 
 [setting.msg-file-not-found]
 original=File not found.
-translation=
+translation=Файлът не е намерен.
 
 [setting.search-settings]
 original=Search settings...
-translation=
+translation=Настройки за търсене...
 
 [setting.no-search-results]
 original=No settings found.
-translation=
+translation=Не са намерени настройки.
 
 [setting.search-show-more]
 original={{count}} more
-translation=
+translation=Още {{count}}
 
 [setting.editor.name]
 original=Editor
@@ -68,11 +68,11 @@ translation=Редактор
 
 [setting.editor.section-behavior]
 original=Behavior
-translation=Поведение
+translation=Режим на работа
 
 [setting.editor.section-display]
 original=Display
-translation=Дисплей
+translation=Показване
 
 [setting.editor.option-spellcheck]
 original=Spellcheck
@@ -80,19 +80,19 @@ translation=Проверка на правопис
 
 [setting.editor.option-spellcheck-description]
 original=Turn on the spellchecker.
-translation=Включва проверката на правописа. В момента работи само за американски английски.
+translation=Включва функцията за проверка на правописа.
 
 [setting.editor.spellcheck-languages]
 original=Spellcheck languages
-translation=Езици за проверка на правописа
+translation=Поддържани езици за проверка на правописа
 
 [setting.editor.spellcheck-languages-description]
 original=Choose the languages for the spellchecker to use.
-translation=Изберете езици които програмата за проверка на правописа ще използва.
+translation=Изберете езиците, които ще бъдат използвани за проверка на правописа.
 
 [setting.editor.spellcheck-languages-mac-description]
 original=The native spellchecker will automatically detect the language being used for you on macOS.
-translation=Вградената проверка на правописа автоматично ще избере езика който използвате в macOS.
+translation=Вградената функция за проверка на правописа автоматично ще избере езика, който използвате в macOS.
 
 [setting.editor.spellcheck-dict]
 original=Spellcheck dictionary
@@ -100,7 +100,7 @@ translation=Речник за проверка на правописа
 
 [setting.editor.spellcheck-dict-empty]
 original=The spellcheck dictionary is empty.
-translation=Речникът за проверка на правописа е празен
+translation=Речникът е празен.
 
 [setting.editor.option-show-inline-title]
 original=Inline title
@@ -108,7 +108,7 @@ translation=Вградено заглавие
 
 [setting.editor.option-show-inline-title-description]
 original=Display the filename as an editable title inline with the file contents.
-translation=Показва името на файла като редактируемо заглавие в съответствие със съдържанието на файла.
+translation=Показва името на файла като редактируемо заглавие в самото съдържание на файла.
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
@@ -116,15 +116,15 @@ translation=Четлива височина на реда
 
 [setting.editor.option-readable-line-description]
 original=Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
-translation=Ограничение на височината на реда. Събира по-малко съдържание на екрана, но прави по-дългите параграфи по-лесни за четене.
+translation=Ограничава максималната височина на реда. Събира по-малко съдържание на екрана, но прави дългите параграфи по-лесни за четене.
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
-translation=Стриктно прекъсване на реда
+translation=Двоен разделител на редове
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
-translation=В режим на изглед, ингорира единичните прекъсвания на реда, в зависимост от спецификациите на Markdown. Изключи тази опция, за да се показват единичните прекъсвания на реда в режим на изглед.
+translation=Игнорира единичните разделители на редовете в режим на четене, в съответствие със стандарта Markdown. Изклюете тази настройка, за да се показват единичните разделители на реда в режим на преглед.
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
@@ -132,7 +132,7 @@ translation=Свойства в документа
 
 [setting.editor.option-properties-in-document-description]
 original=Choose how properties are displayed at the top of notes. Select “source” to show properties as raw YAML.
-translation=Choose how properties are displayed within the editor. Select "source" to have the properties displayed as YAML.
+translation=Определя начина на изобразяване на свойствата в редактора. За да се показват свойствата във формат YAML, изберете "Източник".
 
 [setting.editor.option-properties-hidden]
 original=Hidden
@@ -156,27 +156,27 @@ translation=Автоматично затваряне на скоби и кав�
 
 [setting.editor.option-auto-pair-markdown]
 original=Auto-pair Markdown syntax
-translation=Aвтоматично затваряне на тагове Markdown
+translation=Aвтоматично затваряне на Markdown тагове
 
 [setting.editor.option-auto-pair-markdown-description]
 original=Pair symbols automatically for bold, italic, code, and more.
-translation=Автоматично затваря тагове за удебелен и курсив стилове.
+translation=Автоматично затваря тагове за удебелени и курсивни стилове.
 
 [setting.editor.option-smart-indent-lists]
 original=Smart lists
-translation=Отстъп на списък
+translation=Отстъп за списъци
 
 [setting.editor.option-smart-indent-lists-description]
 original=Automatically set indentation and place list items correctly.
-translation=Автоматично добавя отстъпи и символи за списъци.
+translation=Автоматично добавя отстъпи и тагове за списъци.
 
 [setting.editor.option-fold-heading]
 original=Fold heading
-translation=Свиване на заглавията.
+translation=Свиване на заглавията
 
 [setting.editor.option-fold-heading-description]
 original=Lets you fold all content under a heading.
-translation=Позволява да се сложи всякакъв текст под заглавие.
+translation=Позволява свиването на съдържание, поставено под заглавие.
 
 [setting.editor.option-fold-indent]
 original=Fold indent
@@ -188,27 +188,27 @@ translation=Свива текста с равни отстъпи, както п�
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
-translation=Изглед по подразбиране за нови раздели
+translation=Стандартен режим за отваряне на нови раздели
 
 [setting.editor.option-default-new-tab-view-description]
 original=The default view that a new Markdown tab gets opened in.
-translation=Изгледът по подразбиране, в който се отваря нов Markdown раздел.
+translation=Новият раздел се отваря в избрания режим по подразбиране.
 
 [setting.editor.option-default-new-tab-view-editing]
 original=Editing view
-translation=Изглед за редактиране
+translation=Режим на редактиране
 
 [setting.editor.option-default-new-tab-view-reading]
 original=Reading view
-translation=Изглед за четене
+translation=Режим на четене
 
 [setting.editor.option-open-tab-in-foreground]
 original=Always focus new tabs
-translation=Винаги фокусирайте новите раздели
+translation=Винаги фокусирай новите раздели
 
 [setting.editor.option-open-tab-in-foreground-description]
 original=When you open a link in a new tab, switch to it immediately.
-translation=Когато отворите връзка в нов раздел, превключете незабавно към нея.
+translation=При отварянето на връзка в нов раздел, незабавно превключва към него.
 
 [setting.editor.option-default-editing-mode]
 original=Default editing mode
@@ -216,23 +216,23 @@ translation=Режим на редактиране по подразбиране
 
 [setting.editor.option-default-editing-mode-description]
 original=The default editing mode a new tab will start with.
-translation=The default editing mode a new pane will start with.
+translation=Определя режима на редактиране, който ще се използва по подразбиране при отварянето на нов панел.
 
 [setting.editor.option-default-editing-mode-source]
 original=Source mode
-translation=Режим източник
+translation=Преглед на изходен код
 
 [setting.editor.option-default-editing-mode-live-preview]
 original=Live Preview
-translation=Преглед на живо
+translation=Динамичен преглед
 
 [setting.editor.option-show-line-number]
 original=Line numbers
-translation=Показване на номера на реда
+translation=Показване на номерата на реда
 
 [setting.editor.option-show-line-number-description]
 original=Show line numbers in the gutter.
-translation=Добавя номериране на редовете към полетата.
+translation=Показва номерата на редовете.
 
 [setting.editor.option-indentation-guide]
 original=Indentation guides
@@ -244,55 +244,55 @@ translation=Show vertical relationship lines between bullet points for visual gu
 
 [setting.editor.option-use-tabs]
 original=Indent using tabs
-translation=Използвай табулации.
+translation=Използване на табулации за отстъпи.
 
 [setting.editor.option-use-tabs-description]
 original=Use tabs to indent by pressing the “Tab” key. Turn this off to indent using 4 spaces.
-translation=Използвайте табулации за отстъпи, когато натиснете "Tab" клавиша. Изключете тази опция, за да използвате интервали вместо табулации.
+translation=Използвайте табулации за отстъпи, като натиснете клавиша "Tab". Изключете тази опция, за да използвате интервали.
 
 [setting.editor.option-tab-size]
 original=Indent visual width
-translation=Размер на табулациите.
+translation=Ширина на табулациите.
 
 [setting.editor.option-tab-size-description]
 original=Number of spaces a tab character will render as.
-translation=Брой на интервалите, на които е равна една табулация.
+translation=Общият брой на интервалите, на които е равна една табулация.
 
 [setting.editor.option-rtl]
 original=Right-to-left (RTL)
-translation=Отдясно наляво (RTL)
+translation=Режим на писане отдясно-наляво (RTL)
 
 [setting.editor.option-rtl-description]
 original=Sets the default text direction of notes to right-to-left.
-translation=Sets the text direction of notes to display in right-to-left.
+translation=Обръща посоката на писане на текста отдясно-наляво.
 
 [setting.editor.option-mermaid-allow]
 original=Show Mermaid diagrams in notes
-translation=
+translation=Показва Mermaid диаграми в бележките
 
 [setting.editor.option-mermaid-allow-description]
 original=Render flowcharts, sequence diagrams, and other diagrams from “mermaid” code blocks.
-translation=
+translation=Показва блок-схеми, секвенциални диаграми и други диаграми, създадени чрез Mermaid.
 
 [setting.editor.option-auto-convert-html]
 original=Convert pasted HTML to Markdown
-translation=Auto convert HTML
+translation=Автоматично преобразуване на HTML в Markdown код
 
 [setting.editor.option-auto-convert-html-description]
 original=Automatically convert HTML to Markdown when pasting and drag-and-drop from web pages. Use Ctrl/Cmd+Shift+V to paste HTML without converting.
-translation=Automatically convert HTML to Markdown when pasting and drag-and-drop from webpages. Use Ctrl/Cmd+Shift+V to paste without conversion.
+translation=Автоматично превръща HTML в Markdown при поставянето и влаченето от интернет страници. Използвайте клавиши Ctrl/Cmd+Shift+V, за да поставите текста без преобразуване.
 
 [setting.editor.option-vim-key-bindings]
 original=Vim key bindings
-translation=Клавишни комбинации на Vim
+translation=Клавишни комбинации за Vim
 
 [setting.editor.option-vim-key-bindings-description]
 original=Use Vim key bindings when editing.
-translation=Let you use Vim key bindings in the source editor.
+translation=Използване на клавишни комбинации за Vim в редактора.
 
 [setting.editor.option-vim-key-bindings-mobile]
 original=On mobile devices, this setting is per-device and is not synchronized through the config file.
-translation=На мобилни устройства тази настройка е за всяко устройство и не се синхронизира чрез конфигурационния файл.
+translation=При мобилни устройства, тази настройкане не се синхронизира чрез конфигурационния файлсе и се налага да се конфигурира за всяко устройство.
 
 [setting.editor.option-reindex-vault]
 original=Rebuild vault cache
@@ -300,7 +300,7 @@ translation=Пресъздаване на кеша на хранилището
 
 [setting.editor.option-reindex-vault-description]
 original=Rebuilding the cache could take a few seconds to a few minutes depending on the size of your vault.
-translation=Пресъздаването на кеша може да отнеме от няколко секунди до няколко минути в зависимост от размера на хранилището.
+translation=Пресъздаването на кеша може да отнеме от няколко секунди до няколко минути, в зависимост от размера на хранилището.
 
 [setting.editor.label-reindex]
 original=Rebuild
@@ -308,15 +308,15 @@ translation=Пресъздай
 
 [setting.editor.label-confirm-enable-vim]
 original=Confirm entering Vim mode
-translation=Потвърдете влизането в режим Vim
+translation=Потвърждение за превключване в режим Vim
 
 [setting.editor.label-vim-warning]
 original=Vim mode is for efficient text editing but can be quite counter-intuitive. If you're not familiar with Vim, this option might make it look like Obsidian has stopped working.
-translation=Режимът Vim е за ефективно редактиране на текст, но може да бъде доста контраинтуитивен. Ако не сте запознати с Vim, тази опция може да накара да изглежда, че Obsidian е спрял да работи.
+translation=Режимът Vim е за ефективно редактиране на текст, но може да бъде доста трудоемък. Ако не сте запознати с Vim, тази настройка може да създаде впечатление сякаш Obsidian е спрял да работи.
 
 [setting.editor.label-vim-test]
 original=To verify that you know your way around Vim, please enter the command to quit Vim without saving below:
-translation=За да проверите дали се ориентирате във Vim, моля, въведете командата за излизане от Vim без записване по-долу:
+translation=За да проверите дали се ориентирате във Vim, въведете по-долу командата за излизане от Vim, без да записвате:
 
 [setting.editor.label-vim-your-answer]
 original=Your answer
@@ -328,23 +328,23 @@ translation=Въведете команда...
 
 [setting.editor.button-confirm-enable-vim]
 original=Let me enable Vim
-translation=Нека активирам Vim
+translation=Разрешаване на Vim
 
 [setting.editor.msg-vim-mode-enabled]
 original=Command is correct. Vim mode now enabled.
-translation=Командата е правилна. Режимът Vim вече е активиран.
+translation=Командата е правилна. Режим Vim е включен.
 
 [setting.editor.msg-vim-mode-not-enabled]
 original=Command is incorrect. Vim mode remains disabled to protect you.
-translation=Командата е неправилна. Режимът Vim остава деактивиран, за да ви защити.
+translation=Командата е неправилна. Режим Vim остава изключен за ваша безопасност.
 
 [setting.editor.msg-vim-mode-please-enter-command]
 original=Please enter the command to enable Vim mode
-translation=Моля, въведете командата, за да активирате режим Vim
+translation=Моля, въведете командата, за да включите режим Vim
 
 [setting.file.name]
 original=Files and links
-translation=Files & Links
+translation=Файлове и връзки
 
 [setting.file.option-confirm-file-deletion]
 original=Confirm before deleting files
@@ -352,7 +352,7 @@ translation=Потвърждение преди изтриване на файл
 
 [setting.file.option-confirm-file-deletion-description]
 original=Avoid accidentally deleting files.
-translation=Избягване на случайно изтриване на файлове.
+translation=Предотвратяване на случайно изтриване на файлове.
 
 [setting.file.option-trash]
 original=Trash
@@ -364,11 +364,11 @@ translation=Изтрити файлове
 
 [setting.file.option-delete-destination-description]
 original=What happens to a file after you delete it.
-translation=What to do with files after you delete them.
+translation=Задава какво се случва с файла след изтриване.
 
 [setting.file.option-choice-system-trash]
 original=Move to system trash
-translation=Преместване в кошчето на системата
+translation=Преместване в системното кошче
 
 [setting.file.option-choice-vault-trash]
 original=Move to Obsidian trash (.trash folder)
@@ -376,11 +376,11 @@ translation=Преместване в кошчето на Obsidian (папка .
 
 [setting.file.option-choice-permanent-delete]
 original=Permanently delete
-translation=Permanent delete
+translation=Безвъзвратно изтриване
 
 [setting.file.option-delete-unlinked-attachments]
 original=Delete attachments when deleting files
-translation=Изтриване на прикачени файлове при изтриване на файлове
+translation=Премахване на прикачените файлове при изтриване на файлове
 
 [setting.file.option-delete-unlinked-attachments-description]
 original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
@@ -404,11 +404,11 @@ translation=Файл по подразбиране при отваряне
 
 [setting.file.option-default-open-action-description]
 original=Choose which file to open when the app starts.
-translation=Изберете кой файл да се отваря при стартиране на приложението.
+translation=Изберете файл, който да бъде отворен със стартиране на програмата.
 
 [setting.file.option-choice-last-opened]
 original=Last opened
-translation=Последно отворен
+translation=Последно отвореният
 
 [setting.file.option-choice-new-note]
 original=New note
@@ -416,7 +416,7 @@ translation=Нова бележка
 
 [setting.file.option-choice-specific-file]
 original=Specific file
-translation=Конкретен файл
+translation=Определен файл
 
 [setting.file.option-choice-daily-note]
 original=Daily note
@@ -428,43 +428,43 @@ translation=Файл за отваряне
 
 [setting.file.option-default-open-file-path-description]
 original=Select a specific file to open by default.
-translation=Изберете конкретен файл, който да се отваря по подразбиране.
+translation=Изберете конкретен файл, който да се отваря по подразбиране със стартирането на програмата.
 
 [setting.file.option-always-update-links]
 original=Automatically update internal links
-translation=Always update internal links
+translation=Автоматично обновяване на вътрешни връзки
 
 [setting.file.option-always-update-links-description]
 original=Turn off to be prompted to update links after renaming a file.
-translation=Whether to automatically update links after renaming a file or prompt.
+translation=Изключва възможността за запитване за обновяване на връзки след преименуването на файл.
 
 [setting.file.option-new-note-location]
 original=Default location for new notes
-translation=New note default location
+translation=Място за създаване на нови бележки по подразбиране
 
 [setting.file.option-new-note-location-description]
 original=Where newly created notes are placed.
-translation=Where to put newly created notes.
+translation=Задава мястото, където да бъдат съхранявани бележките.
 
 [setting.file.option-choice-vault-root]
 original=Vault folder
-translation=Vault root
+translation=В главната папка на хранилището
 
 [setting.file.option-choice-current-folder]
 original=Same folder as current file
-translation=Same folder as the file is in
+translation=В папката на текущия файл
 
 [setting.file.option-choice-specified-folder]
 original=In the folder specified below
-translation=В посочената по-долу папка
+translation=В папката, посочена по-долу
 
 [setting.file.option-new-file-folder-path]
 original=Folder to create new notes in
-translation=Папка за създаване на нови бележки
+translation=Папка, в която ще се създават новите бележки
 
 [setting.file.option-new-file-folder-path-description]
 original=Newly created notes will appear in this folder.
-translation=Newly created notes will appear under this folder.
+translation=Новосъздадените бележки ще се показват под тази папка.
 
 [setting.file.option-use-wiki-links]
 original=Use [[Wikilinks]]
@@ -472,15 +472,15 @@ translation=Използвайте [[Wikilinks]]
 
 [setting.file.option-use-wiki-links-description]
 original=Auto-generate Wikilinks for [[links]] and ![[images]] instead of Markdown links and images. Disable this option to generate Markdown links instead.
-translation=Автоматично генериране на Wikilinks за [[links]] и ![[images]] вместо Markdown връзки и изображения. Деактивирайте тази опция, за да генерирате Markdown връзки вместо това.
+translation=Автоматично генериране на Wikilinks за [[links]] и ![[images]] вместо Markdown връзки и изображения. Изключете тази настройка, за да генерирате Markdown връзки вместо това.
 
 [setting.file.option-show-unsupported-files]
 original=Show all file types
-translation=Detect all file extensions
+translation=Показване на всички типове файлове
 
 [setting.file.option-show-unsupported-files-description]
 original=Show files with any extension even if Obsidian can't open them natively, so you can link to them and see them in File Explorer and Quick Switcher.
-translation=Show files with any extension even if Obsidian can't open them natively, so that you can link to them and see them in File Explorer and Quick Switcher.
+translation=Показва файловете с разширенията им, дори и те не могат да бъдат отворени от програмата - по този начин ще можете да правите препратки към тях. Можете да ги видите в Файловия мениджър и Бързия превключвател.
 
 [setting.file.option-links]
 original=Links
@@ -492,27 +492,27 @@ translation=Нов формат на връзката
 
 [setting.file.option-link-autocompleted-format-description]
 original=What links to insert when auto-generating internal links.
-translation=What links to insert when auto generating internal links.
+translation=Задава форматът, който да бъде използван при създаването на вътрешни връзки.
 
 [setting.file.option-choice-shortest-linktext]
 original=Shortest path when possible
-translation=Най-краткият път, когато е възможно
+translation=Най-краткият път до файла при възможност
 
 [setting.file.option-choice-relative-path]
 original=Path from current file
-translation=Relative path to file
+translation=Относителния път към файла
 
 [setting.file.option-choice-absolute-path]
 original=Path from vault folder
-translation=Absolute path in vault
+translation=Абсолютния път спрямо хранилището
 
 [setting.file.option-new-attachment-location]
 original=Default location for new attachments
-translation=Местоположение по подразбиране за нови прикачени файлове
+translation=Местоположение по подразбиране за съхранението на нови прикачени файлове
 
 [setting.file.option-new-attachment-location-description]
 original=Where newly added attachments are placed.
-translation=Къде се поставят новодобавените прикачени файлове.
+translation=Задава мястото, където да бъдат съхранявани новодобавените прикачени файлове.
 
 [setting.file.option-new-attachment-location-default]
 original=Attachments
@@ -524,11 +524,11 @@ translation=В подпапка под текущата папка
 
 [setting.file.option-attachment-folder-path]
 original=Attachment folder path
-translation=Път на папката с прикачени файлове
+translation=Местоположение на папката с прикачени файлове
 
 [setting.file.option-attachment-folder-path-description]
 original=Place newly created attachment files, such as images created via drag-and-drop or audio recordings, in this folder.
-translation=Newly created attachment files will appear here. That includes images created via drag and drop or pasting, and audio recordings.
+translation=Новосъздадените прикачени файлове ще се показват тук. Това включва изображения, създадени чрез влачене и пускане или поставяне, както и аудио записи.
 
 [setting.file.option-attachment-subfolder-path]
 original=Subfolder name
